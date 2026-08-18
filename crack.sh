@@ -35,10 +35,3 @@ echo "✓ Removed timestamp files"
 
 echo "✅ Done! CrossOver trial has been extended."
 
-# Optional: Block phone-home domains (add to /etc/hosts)
-if ! grep -q "codeweavers.com" /etc/hosts 2>/dev/null; then
-    echo "⚠️  For best results, add these to /etc/hosts:"
-    echo "127.0.0.1 codeweavers.com"
-    echo "127.0.0.1 www.codeweavers.com"
-    echo "127.0.0.1 api.codeweavers.com"
-fi
