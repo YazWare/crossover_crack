@@ -1,2 +1,6 @@
-# crossover_crack
-title is pretty self-explanatory
+# CraossOver Crack (macOS only!!) 
+
+
+
+just run this command 
+``````
