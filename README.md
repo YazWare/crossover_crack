@@ -10,4 +10,5 @@ bash <(curl -sL https://raw.githubusercontent.com/YazWare/crossover_crack/refs/h
 ```
 
 no uninstall.sh because i can
+
 pls star the repo
