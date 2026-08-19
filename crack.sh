@@ -16,7 +16,7 @@ if [ -d "$BOTTLES_DIR" ]; then
         if [ -f "$REG_FILE" ]; then
             sed -i '' '/\[Software\\CodeWeavers\\CrossOver\\cxoffice\]/,/^$/d' "$REG_FILE" 2>/dev/null || \
             sed -i '/\[Software\\CodeWeavers\\CrossOver\\cxoffice\]/,/^$/d' "$REG_FILE" 2>/dev/null
-            echo "✓ Cleaned registry for $(basename "$bottle")"
+            echo "✓ cleaned registry for $(basename "$bottle")"
         fi
     done
 fi
@@ -25,5 +25,5 @@ find "$HOME/Library/Application Support/CrossOver" -name ".update-timestamp" -de
 find "$HOME/Library/Application Support/CrossOver" -name ".trial-*" -delete 2>/dev/null
 echo "✓ removed timestamp files"
 
-echo "✅ enjoy your free crossover"
+echo "done ✅ enjoy your free crossover"
 
